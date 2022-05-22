@@ -34,7 +34,7 @@ app.use(express.json());
 /**
  * uri is a variable name that stores the connection string to our mongoDB database
  */
-const uri = process.env.ATLAS_URI;
+const uri = process.env.DB_URI;
 /**
  * .connect()   is a method that is used to connect to a MongoDB database.  It takes one argument, the connection string.  The connection string is a string that contains the connection information for the database.  The connection string is in the following format:  mongodb://<dbuser>:<dbpassword>@<dbhost>[:<dbport>]/<dbname>  and for security reasons, the connection string should not be stored in a file.  Instead, it should be stored in an environment variable.
  */
