@@ -1,3 +1,6 @@
+/**
+ * mongoose.schema() is a method that is used to create a new schema.  It takes one argument, an object that contains the schema properties.  The properties of the schema are used to define the structure of the documents in the database.   
+ */
 import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
@@ -34,6 +37,6 @@ const UserSchema = new Schema( {
 } );
 
  
-const User = mongoose.model('User', UserSchema);
+const UserModel = mongoose.model('user', UserSchema);
 
-module.exports = User;
+module.exports = UserModel;
