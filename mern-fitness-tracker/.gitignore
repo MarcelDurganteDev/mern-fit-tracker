@@ -26,8 +26,6 @@ nodejs-intro-workshop/
 ntuser.dat.LOG1
 ntuser.dat.LOG2
 ntuser.ini
-package-lock.json
-package.json
 scoop/
 snapshot.tar
 
