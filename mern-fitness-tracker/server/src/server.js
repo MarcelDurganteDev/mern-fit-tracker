@@ -26,6 +26,8 @@ import helmet from 'helmet';
 
 import config from './config/config.js';
 
+import userRouter from './routes/users-routes.js';
+
 /**
  * Create our express server.Create a new express application instance( instance of express ) and store it in a variable called app( app is a variable name )( app is a variable name )
  */
@@ -54,6 +56,7 @@ app.use(
   })
 );
 
+app.use( userRouter );
 
 export default app; 
 
