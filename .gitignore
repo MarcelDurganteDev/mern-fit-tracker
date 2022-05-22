@@ -283,7 +283,7 @@ fabric.properties
 *.sig
 
 pkg/
-src/
+
 
 ### Batch ###
 # BatchFiles
